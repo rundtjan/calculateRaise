@@ -1,0 +1,1 @@
+To calculate a percentual raise on salaries as copy-pasted from a word-document. The salaries are in rows, in which they are separated by tabs. <br /> Go figure.

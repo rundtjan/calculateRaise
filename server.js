@@ -36,7 +36,7 @@ fs.readFile('immigrant.txt', function(err, data) {
     if (err) throw err;
     data = data.toString().split("\n")
     console.log(data)
-    fs.writeFile('newImmigrant.txt', '', function (err) {
+    fs.writeFile('newImmigrant.txt', 'Value\tBefore\tNow\n', function (err) {
         if (err) throw err;
         for (var i = 0; i < data.length; i++){
             if (data[i].indexOf("invandrar") > -1){
